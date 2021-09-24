@@ -1,9 +1,9 @@
 :root {
-  --color-white: #ffffff;
-  --color-black: #2e373b;
-  --color-red: #f6404f;
-  --color-gray: #e0e0e0;
-  --color-placeholder: #9c9c9c;
+  --color-text-secondary: #ffffff;
+  --color-text-primary: #2e373b;
+  --color-text-allotted: #f6404f;
+  --color-link-secondary: #e0e0e0;
+  --color-placeholder-primary: #9c9c9c;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   font-style: normal;
   background-color: navajowhite;
   line-height: 120%;
-  color: var(--color-black);
+  color: var(--color-text-primary);
 }
 
 .heading {
@@ -34,65 +34,72 @@ body {
 }
 
 .heading--white {
-  color: var(--color-white);
+  color: var(--color-text-secondary);
 }
 
 .heading--red {
-  color: var(--color-red);
-}
-
-.local__option {
-  color: var(--color-white);
+  color: var(--color-text-allotted);
 }
 
 .link {
-  font-size: 16px;
-  color: var(--color-white);
+  color: var(--color-text-secondary);
   text-decoration: none;
 }
 
 .link--black {
   font-size: 21px;
-  color: var(--color-black);
+  color: var(--color-text-primary);
   text-decoration: underline;
 }
 
 .link--footer {
-  color: var(--color-gray);
+  color: var(--color-link-secondary);
+}
+
+.location {
+
+}
+
+.local__option {
+  color: var(--color-text-secondary);
+}
+
+.intro {
+
 }
 
 .intro__subtitle {
   font-size: 24px;
-  color: var(--color-white);
+  color: var(--color-text-secondary);
+}
+
+.nav__title {
+  color: var(--color-text-secondary);
+}
+
+.events {
+
 }
 
 .events__date {
   font-size: 14px;
 }
 
-.events__description {
-  font-size: 16px;
-}
-
 .events__card {
   text-decoration: none;
-  color: var(--color-black);
+  color: var(--color-text-primary);
 }
 
 .news__date {
-  color: var(--color-red);
-  font-size: 16px;
+  color: var(--color-text-allotted);
 }
 
 .footer__description {
-  color: var(--color-gray);
+  color: var(--color-link-secondary);
 }
 
 .mailing__text {
   font-size: 12px;
-  color: var(--color-placeholder);
+  color: var(----color-placeholder-primary);
 }
 
-.nav__title {
-  color: var(--color-white);
-}
