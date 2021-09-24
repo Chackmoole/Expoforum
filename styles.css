@@ -1,0 +1,106 @@
+:root {
+  --color-text-white: #ffffff;
+  --color-text-black: #2e373b;
+  --color-text-red: #f6404f;
+  --color-link-white: #ffffff;
+  --color-link-gray: #e0e0e0;
+  --color-placeholder-gray: #9c9c9c;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  background-color: navajowhite;
+  line-height: 120%;
+  color: var(--color-text-black);
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.heading--h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.heading--h2 {
+}
+
+.heading--h3 {
+  font-size: 21px;
+}
+
+.heading--white {
+  color: var(--color-text-white);
+}
+
+.heading--red {
+  color: var(--color-text-red);
+}
+
+.link {
+  color: var(--color-text-white);
+  text-decoration: none;
+}
+
+.link--black {
+  font-size: 21px;
+  color: var(--color-text-black);
+  text-decoration: underline;
+}
+
+.link--footer {
+  color: var(--color-link-gray);
+}
+
+.location {
+
+}
+
+.local__option {
+  color: var(--color-text-white);
+}
+
+.intro {
+
+}
+
+.intro__subtitle {
+  font-size: 24px;
+  color: var(--color-text-white);
+}
+
+.nav__title {
+  color: var(--color-text-white);
+}
+
+.events {
+
+}
+
+.events__date {
+  font-size: 14px;
+}
+
+.events__card {
+  text-decoration: none;
+  color: var(--color-text-black);
+}
+
+.news__date {
+  color: var(--color-text-red);
+}
+
+.footer__description {
+  color: var(--color-link-gray);
+}
+
+.mailing__text {
+  font-size: 12px;
+  color: var(----color-placeholder-gray);
+}
+
