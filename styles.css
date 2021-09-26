@@ -152,6 +152,9 @@ p {
   color: var(--color-link-gray);
 }
 
+.mailing {
+}
+
 .mailing__text {
   font-size: 12px;
   color: var(----color-placeholder-gray);
