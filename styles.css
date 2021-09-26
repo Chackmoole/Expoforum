@@ -94,6 +94,10 @@ p {
   background-position: center;
 }
 
+.header__line {
+  border-bottom: solid 1px var(--color-text-white);
+}
+
 .location {
 
 }
@@ -150,6 +154,9 @@ p {
 
 .footer__description {
   color: var(--color-link-gray);
+}
+
+.mailing {
 }
 
 .mailing__text {
