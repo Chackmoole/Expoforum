@@ -12,6 +12,10 @@
   --color-bg-darkGray: #2f4f4f;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
@@ -19,11 +23,31 @@ body {
   background-color: navajowhite;
   line-height: 120%;
   color: var(--color-text-black);
+  min-width: 1120px;
+}
+
+.layout {
+  width: 1120px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .heading {
   font-size: 30px;
   font-weight: 500;
+  padding: 0;
+  margin: 0;
 }
 
 .heading--h1 {
@@ -46,6 +70,7 @@ body {
 .heading--red {
   color: var(--color-text-red);
 }
+
 
 .link {
   color: var(--color-text-white);
