@@ -9,6 +9,7 @@
   --color-bg-yellow: #ffc41e;
   --color-bg-cream: #faf3e3;
   --color-bg-ocean: #30bcc9;
+  --color-bg-darkGray: #bgdarkslategray;
 }
 
 body {
@@ -62,8 +63,9 @@ body {
 }
 
 .header {
-  background-color: darkslategray;
-  background-image: url("img/header_bg.png");
+  background-color: var(--color-bg-darkGray);
+  background-image: url("img/headerBg.png");
+  background-position: center;
 }
 
 .location {
