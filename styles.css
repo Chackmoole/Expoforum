@@ -94,6 +94,10 @@ p {
   background-position: center;
 }
 
+.heade__line {
+  border-bottom: solid 1px var(--color-text-white);
+}
+
 .location {
 
 }
