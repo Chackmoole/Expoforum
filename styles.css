@@ -55,6 +55,7 @@ p {
   font-size: 64px;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 32px;
 }
 
 .heading--h2 {
@@ -94,33 +95,141 @@ p {
   background-position: center;
 }
 
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .header__line {
-  border-bottom: solid 1px var(--color-text-white);
+  background-color: var(--color-text-white);
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
 }
 
-.location {
-
+.main-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-.local__option {
+.main-nav__link {
+  padding: 8px;
+  display: inline-block;
+}
+
+.main-nav__item {
+  margin-right: 32px;
+}
+
+.user-block {
+  display: flex;
+}
+
+.locale {
+  display: flex;
+}
+
+.locale__icon {
+  margin-right: 8px;
+}
+
+.locale__option {
   color: var(--color-text-white);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.search__input {
+  display: none;
+}
+
+.title-block {
+  display: flex;
+  padding-top: 192px;
+  padding-bottom: 56px;
+  justify-content: space-between;
+}
+
+.title-block__subtitle {
+  font-size: 24px;
+  color: var(--color-text-white);
+  max-width: 530px;
+  margin-bottom: 24px;
+  line-height: 140%;
 }
 
 .intro {
-
+  padding-top: 100px;
 }
 
-.intro__subtitle {
-  font-size: 24px;
-  color: var(--color-text-white);
+.intro__list {
+  display: flex;
+  max-width: 540px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.intro__item {
+  width: 255px;
+  padding: 30px 40px;
+}
+
+.intro__item:first-child {
+  margin-bottom: 30px;
+  background-color: var(--color-bg-blue);
+}
+
+.intro__item:nth-child(2) {
+  margin-bottom: 30px;
+  background-color: var(--color-bg-ocean);
+}
+
+.intro__item:nth-child(3) {
+  background-color: var(--color-bg-yellow);
+}
+
+.intro__item:nth-child(4) {
+  background-color: var(--color-text-red);
+}
+
+.intro__title {
+  margin-bottom: 16px;
+}
+
+.intro__link {
+  font-size: 14px;
 }
 
 .nav {
   background-color: var(--color-bg-blue);
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+
+.nav__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list-wrapper {
+  width: 220px;
 }
 
 .nav__title {
   color: var(--color-text-white);
+  margin-bottom: 30px;
+}
+
+.nav__item {
+  margin-bottom: 16px;
 }
 
 .events {
