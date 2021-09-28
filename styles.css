@@ -20,7 +20,7 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
   font-style: normal;
-  background-color: navajowhite;
+  background-color: var(--color-bg-cream);
   line-height: 120%;
   color: var(--color-text-black);
   min-width: 1120px;
@@ -94,6 +94,7 @@ p {
   background-color: var(--color-bg-darkGray);
   background-image: url("img/headerBg.png");
   background-position: center;
+  background-size: cover;
 }
 
 .header__wrapper {
@@ -237,8 +238,8 @@ p {
 
 .events {
   background-color: var(--color-bg-yellow);
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 72px;
+  padding-bottom: 84px;
 }
 
 .events__inner {
@@ -277,16 +278,61 @@ p {
   color: var(--color-text-black);
 }
 
-.promo {
-  background-color: var(--color-bg-cream);
+.news {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 72px;
+  padding-bottom: 84px;
 }
 
-.news {
-  background-color: var(--color-bg-cream);
+.news__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.news__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 530px;
+  flex-grow: 2;
+}
+
+.news__item {
+  display: flex;
+
+}
+
+.news__img {
+  margin-right: 28px;
+}
+
+.news__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.news__content {
+  padding-top: 12px;
 }
 
 .news__date {
   color: var(--color-text-red);
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.promo {
+}
+
+.promo__img {
+  margin-bottom: 56px;
+}
+
+.promo__img:last-child {
+  margin-bottom: 0;
 }
 
 .footer {
