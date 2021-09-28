@@ -288,13 +288,13 @@ p {
 .news__wrapper {
   display: flex;
   flex-direction: column;
+  width: 530px;
 }
 
 .news__list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 530px;
   flex-grow: 2;
 }
 
@@ -324,14 +324,11 @@ p {
   margin-bottom: 16px;
 }
 
-.promo {
-}
-
-.promo__img {
+.news__img {
   margin-bottom: 56px;
 }
 
-.promo__img:last-child {
+.news__img:last-child {
   margin-bottom: 0;
 }
 
