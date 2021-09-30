@@ -352,18 +352,11 @@ p {
   flex-wrap: wrap;
   padding-top: 64px;
   padding-bottom: 72px;
-
-}
-
-.footer__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  /*width: 560px;*/
   gap: 40px 0;
+
 }
 
 .footer__section {
-  /*width: 220px;*/
   width: 25%;
   min-height: 168px;
 }
@@ -387,7 +380,6 @@ p {
 .socials {
   display: flex;
   gap: 0 30px;
-  /*justify-content: space-between;*/
 }
 
 .mailing {
@@ -408,10 +400,10 @@ p {
   color: var(--color-placeholder-gray);
 }
 
-/* не нажимается */
 .mailing__button {
   padding: 0;
   bottom: 0;
   border: none;
   height: 40px;
+  cursor: pointer;
 }
