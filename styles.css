@@ -95,24 +95,37 @@ a {
   display: inline-block;
 }
 
+.link:hover {
+  color: var(--color-bg-yellow);
+  text-decoration: underline;
+  transition: all .4s ease;
+}
+
+.link:hover svg path {
+  fill: var(--color-bg-yellow);
+  transition: all .4s ease;
+}
+
 .link--black {
   font-size: 21px;
   color: var(--color-text-black);
   text-decoration: underline;
 }
 
-.link--hover:hover {
-  color: var(--color-bg-yellow);
+.link--black:hover {
   text-decoration: underline;
 }
 
-.link--opacity:hover {
-  opacity: 0.5;
+.events__link:hover {
+  color: var(--color-text-white);
+  transition: all .4s ease;
 }
 
-.footer__link {
-  color: var(--color-link-gray);
+.events__link:hover svg path {
+  fill: var(--color-text-white);
+  transition: all .4s ease;
 }
+
 
 .header {
   background-color: var(--color-bg-darkGray);
@@ -167,6 +180,16 @@ a {
   color: var(--color-text-white);
 }
 
+.locale:hover .locale__option {
+  color: var(--color-bg-yellow);
+  transition: all .4s ease;
+}
+
+.locale:hover .icon-fill {
+  fill: var(--color-bg-yellow);
+  transition: all .4s ease;
+}
+
 .search {
   display: flex;
   align-items: center;
@@ -175,6 +198,11 @@ a {
 
 .search__input {
   display: none;
+}
+
+.search:hover .icon-fill {
+  fill: var(--color-bg-yellow);
+  transition: all .4s ease;
 }
 
 .title-block {
@@ -232,6 +260,17 @@ a {
 
 .intro__link {
   font-size: 14px;
+}
+
+.intro__link:hover {
+  color: var(--color-text-black);
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.intro__link:hover svg path {
+  fill: var(--color-text-black);
+  transition: all .4s ease;
 }
 
 .nav {
@@ -300,7 +339,9 @@ a {
 .events__card {
   text-decoration: none;
   color: var(--color-text-black);
+  display: block;
 }
+
 
 .news {
   display: flex;
@@ -383,7 +424,9 @@ a {
   display: block;
   margin-bottom: 10px;
   font-size: 14px;
+  color: var(--color-link-gray);
 }
+
 
 .footer__description {
   color: var(--color-link-gray);
