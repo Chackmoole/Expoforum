@@ -55,6 +55,11 @@ p {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .heading {
   font-size: 30px;
   line-height: 130%;
@@ -90,14 +95,25 @@ p {
   display: inline-block;
 }
 
+.link:hover {
+  color: var(--color-bg-yellow);
+  text-decoration: underline;
+  transition: all .4s ease;
+}
+
+.link:hover svg path {
+  fill: var(--color-bg-yellow);
+  transition: all .4s ease;
+}
+
 .link--black {
   font-size: 21px;
   color: var(--color-text-black);
   text-decoration: underline;
 }
 
-.footer__link {
-  color: var(--color-link-gray);
+.link--black:hover {
+  text-decoration: underline;
 }
 
 .header {
@@ -153,6 +169,16 @@ p {
   color: var(--color-text-white);
 }
 
+.locale:hover .locale__option {
+  color: var(--color-bg-yellow);
+  transition: all .4s ease;
+}
+
+.locale:hover svg path {
+  fill: var(--color-bg-yellow);
+  transition: all .4s ease;
+}
+
 .search {
   display: flex;
   align-items: center;
@@ -161,6 +187,11 @@ p {
 
 .search__input {
   display: none;
+}
+
+.search:hover svg path {
+  fill: var(--color-bg-yellow);
+  transition: all .4s ease;
 }
 
 .title-block {
@@ -218,6 +249,17 @@ p {
 
 .intro__link {
   font-size: 14px;
+}
+
+.intro__link:hover {
+  color: var(--color-text-black);
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.intro__link:hover svg path {
+  fill: var(--color-text-black);
+  transition: all .4s ease;
 }
 
 .nav {
@@ -286,7 +328,9 @@ p {
 .events__card {
   text-decoration: none;
   color: var(--color-text-black);
+  display: block;
 }
+
 
 .news {
   display: flex;
@@ -369,7 +413,9 @@ p {
   display: block;
   margin-bottom: 10px;
   font-size: 14px;
+  color: var(--color-link-gray);
 }
+
 
 .footer__description {
   color: var(--color-link-gray);
@@ -387,6 +433,7 @@ p {
 }
 
 .mailing__input {
+  box-sizing: border-box;
   font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-size: 12px;
@@ -394,10 +441,21 @@ p {
   width: 230px;
   border: none;
   padding: 12px 20px;
+  border: solid var(--color-text-white) 2px;
 }
 
 .mailing__input::placeholder {
   color: var(--color-placeholder-gray);
+}
+
+.mailing__input:hover {
+  border: solid var(--color-link-gray) 2px;
+}
+
+.mailing__input:focus {
+  color: var(--color-text-black);
+  outline: none;
+  border: solid var(--color-bg-yellow) 2px;
 }
 
 .mailing__button {
