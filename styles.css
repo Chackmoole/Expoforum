@@ -116,17 +116,6 @@ a {
   text-decoration: underline;
 }
 
-.events__link:hover {
-  color: var(--color-text-white);
-  transition: all .4s ease;
-}
-
-.events__link:hover svg path {
-  fill: var(--color-text-white);
-  transition: all .4s ease;
-}
-
-
 .header {
   background-color: var(--color-bg-darkGray);
   background-image: url("img/headerBg.png");
@@ -185,7 +174,7 @@ a {
   transition: all .4s ease;
 }
 
-.locale:hover .icon-fill {
+.locale:hover svg path {
   fill: var(--color-bg-yellow);
   transition: all .4s ease;
 }
@@ -200,7 +189,7 @@ a {
   display: none;
 }
 
-.search:hover .icon-fill {
+.search:hover svg path {
   fill: var(--color-bg-yellow);
   transition: all .4s ease;
 }
